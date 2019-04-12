@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/* Formatação de todas as páginas */
+
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+}
+
+body#index {
+	background-color: #2E2E2E;	
+}
+
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+      box-shadow: 
+}
+
+.photo-overlay:before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	pointer-events: none;
+	background: rgba(32,32,32,0.5);
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+/* FOOTER */
+
+#social-fb:hover {
+     color: #3B5998;
+     transition:all .001s;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+     transition:all .001s;
+ }
+ #social-gp:hover {
+     color: #d34836;
+     transition:all .001s;
+ }
+ #social-em:hover {
+     color: #f39c12;
+     transition:all .001s;
+ }
+
+footer {
+	position: fixed;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	
+}
+
+footer p {
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* Página do Usuário */
+
+.row {
+	box-shadow:5px 10px #888888;
+}
+
+/* formatação do cadastro php */
+
+#mensagem{
+        width: 20%;
+    }
+    span{
+        padding: 6px 20px;
+        border-radius: 10px;
+    }
+    .erro{
+        background-color: #ffecec;
+        border: 1px solid #f5aca6;
+    }
+    .sucesso {
+        background-color: #e9ffd9;
+        border: 1px solid #a6ca8a;
+    }
+    .aviso {
+        background-color: #fff8c4;
+        border: 1px solid #f2c779;
+    }
